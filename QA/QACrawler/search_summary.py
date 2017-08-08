@@ -6,12 +6,13 @@ from urllib import quote
 from QA.Tools import Html_Tools as To
 from QA.Tools import TextProcess as T
 
-'''
-对百度、Bing 的搜索摘要进行答案的检索
-（需要加问句分类接口）
-'''
 
 def kwquery(query):
+    ''' 对百度、Bing 的搜索摘要进行答案的检索（需要加问句分类接口）
+
+    :param query:
+    :return:
+    '''
     #分词 去停用词 抽取关键词
     keywords = []
     words = T.postag(query)

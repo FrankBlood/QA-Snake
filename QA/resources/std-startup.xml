@@ -6,6 +6,15 @@
         <pattern>LOAD DOC SNAKE</pattern>
 
         <template>
+            <learn>./resources/abc.aiml</learn>
+            <learn>./resources/bot_profile.aiml</learn>
+            <learn>./resources/general.aiml</learn>
+            <learn>./resources/infor.aiml</learn>
+            <learn>./resources/main.aiml</learn>
+            <learn>./resources/new07281.aiml</learn>
+            <learn>./resources/salutations.aiml</learn>
+            <learn>./resources/virus0727.aiml</learn>
+            <learn>./resources/zextra_weibao.aiml</learn>
             <learn>./resources/Common conversation.aiml</learn>
             <learn>./resources/bye.aiml</learn>
             <learn>./resources/tools.aiml</learn>

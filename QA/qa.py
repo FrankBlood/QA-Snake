@@ -113,4 +113,3 @@ def qa(question):
         # 匹配模版
         else:
             print 'Eric：' + response
-
